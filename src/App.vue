@@ -9,7 +9,7 @@ import HeaderComponent from './components/HeaderComponent.vue'
       <nav>
         <RouterLink class="white-custom" to="/blog">Blog</RouterLink>
         <RouterLink class="white-custom" to="/about">Sobre</RouterLink>
-        <RouterLink class="white-custom" to="/Description">Descrição</RouterLink>
+        <RouterLink class="white-custom" to="/description">Descrição</RouterLink>
       </nav>
 
       <HeaderComponent name="Seu nome" />

@@ -90,13 +90,27 @@ p {
   text-align: justify;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .profile-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    border-radius: 10px;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+  }
+
+  .profile-info h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .circular-image,
+  .profile-image {
+    width: 125px;
+    height: 125px;
   }
 }
 </style>

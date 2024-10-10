@@ -72,7 +72,7 @@ const showMoreArticles = () => {
 
     <div v-if="articlesToShow < articles.length" style="text-align: center;">
       <button @click="showMoreArticles">
-        Ver mais
+        Ver mais...
       </button>
     </div>
   </div>
