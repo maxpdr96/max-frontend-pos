@@ -72,6 +72,12 @@ header .wrapper {
   flex-wrap: wrap;
 }
 
+@media (min-width: 1024px) {
+  header .wrapper {
+    flex-wrap: wrap;
+  }
+}
+
 nav {
   text-align: left;
   font-size: 1rem;

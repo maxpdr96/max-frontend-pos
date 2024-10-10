@@ -14,15 +14,15 @@ defineProps<{
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed urna pulvinar, bibendum
         neque vitae, auctor ipsum. Nullam id ipsum ut nibh efficitur lobortis. Nullam condimentum
-        magna quam,Sed elementum suscipit dolor, eu dapibus sem. Quisque auctor lorem
-        tincidunt sollicitudin scelerisque.
+        magna quam,Sed elementum suscipit dolor, eu dapibus sem. Quisque auctor lorem tincidunt
+        sollicitudin scelerisque.
       </p>
       <p>
         Proin facilisis molestie massa quis viverra. Aliquam erat volutpat. Nullam ultricies leo ut
         lacus tincidunt aliquam. Pellentesque sit amet eros id diam pellentesque lobortis in iaculis
-        enim. Donec vivera, metus nec tincidunt facilisis, risus quam facilisis nibh, sed
-        porttitor nunc sapien venenatis quam. Sed tristique nisi non lacus posuere, quis
-        sollicitudin lectus porta.
+        enim. Donec vivera, metus nec tincidunt facilisis, risus quam facilisis nibh, sed porttitor
+        nunc sapien venenatis quam. Sed tristique nisi non lacus posuere, quis sollicitudin lectus
+        porta.
       </p>
     </div>
   </div>
@@ -73,10 +73,12 @@ h3 {
 .profile-info {
   justify-content: center;
 }
+
 .profile-info h1 {
   margin: 0;
   font-size: 2em;
 }
+
 p {
   color: white;
 }
@@ -86,5 +88,15 @@ p {
   font-size: 1em;
   line-height: 1.5;
   text-align: justify;
+}
+
+@media (min-width: 1024px) {
+  .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+  }
 }
 </style>
