@@ -10,7 +10,7 @@ defineProps<{
       <img alt="Photo" class="circular-image" src="@/assets/dog.png" width="125" height="125" />
     </div>
     <div class="profile-info">
-      <h1 class="white">{{ name }}</h1>
+      <h1 class="white-custom">{{ name }}</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed urna pulvinar, bibendum
         neque vitae, auctor ipsum. Nullam id ipsum ut nibh efficitur lobortis. Nullam condimentum
@@ -76,6 +76,9 @@ h3 {
 .profile-info h1 {
   margin: 0;
   font-size: 2em;
+}
+p {
+  color: white;
 }
 
 .profile-info p {

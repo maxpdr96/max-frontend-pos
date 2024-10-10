@@ -1,21 +1,21 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from './components/HeaderComponent.vue'
 </script>
 
 <template>
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/blog">Blog</RouterLink>
-        <RouterLink to="/about">Sobre</RouterLink>
-        <RouterLink to="/Description">Descrição</RouterLink>
+        <RouterLink class="white-custom" to="/blog">Blog</RouterLink>
+        <RouterLink class="white-custom" to="/about">Sobre</RouterLink>
+        <RouterLink class="white-custom" to="/Description">Descrição</RouterLink>
       </nav>
 
-      <HelloWorld name="Seu nome" />
+      <HeaderComponent name="Seu nome" />
     </div>
   </header>
-
+  <h1>Últimas do blog</h1>
   <RouterView />
 </template>
 
@@ -77,5 +77,13 @@ nav {
   font-size: 1rem;
   padding: 1rem 0;
   margin-top: 1rem;
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  color: #333;
 }
 </style>
