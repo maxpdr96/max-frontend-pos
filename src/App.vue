@@ -75,6 +75,7 @@ header .wrapper {
 @media (min-width: 1024px) {
   header .wrapper {
     flex-wrap: wrap;
+    padding-bottom: 2rem;
   }
 }
 
